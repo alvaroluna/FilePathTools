@@ -64,11 +64,11 @@ class ShiftFilePath:
         elif "/" in self.filePath:
             osEnv = "anything else"
             newPathBackwards = pathReverse.split("/", self.levelsUp)[-1]
-
         # new steped back file filePath 
         newPath = newPathBackwards[::-1]
 
-        # extend file filePath with appending string - windows or anything other os
+        # extend file filePath with appending string
+        # (windows or anything other os)
         if type(self.appendPath) is str and osEnv == "windows":
             return(r"{0}\{1}".format(newPath, self.appendPath))
         elif type(self.appendPath) is str and osEnv == "anything else":
