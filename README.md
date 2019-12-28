@@ -1,5 +1,5 @@
-# FilePathTools
-FilePathTools is a module that allows you to input a file path and move up n-levels towards the root directory. In addition, you have the option of appending a string to the output if you need to access subfolders originating a level above from the current file's location in a directory. A safer distribution when the distance files are from each other are consistent, but the user's installation location may be different and the code can't rely on exact locations.
+# PathManager
+PathManager is a module that allows you to input a file path and move up n-levels towards the root directory. In addition, you have the option of appending a string to the output if you need to access subfolders originating a level above from the current file's location in a directory. A safer distribution when the distance files are from each other are consistent, but the user's installation location may be different and the code can't rely on exact locations.
 
 For example:
 
@@ -26,7 +26,7 @@ newPath = ShiftFilePath(path=originalPath, branchesBack=2, appendPath="Lib").ToS
 print(newpath) --> "C:\\Users\aluna\Documents\Lib"
 ```
 
-The preferred method of installation is to use pip install FilePathTools. Conversely, you may also fork this repo and reference the FilePathTools.py file directly in your code.
+The preferred method of installation is to use pip install PathManager. Conversely, you may also fork this repo and reference the PathManager.py file directly in your code.
 
 ### Prerequisites
 
@@ -35,7 +35,7 @@ There are no 3rd party or external modules that need to be downloaded to get thi
 ### Installing
 
 ```
-$ pip install FilePathTools
+$ pip install PathManager
 ```
 
 ## Built With
@@ -48,7 +48,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Authors
 
-* **Alvaro Luna** - *Initial work* - [Obj.App](https://objectiveapplications.com/)
+* **Alvaro Luna** | [Obj.App](https://objectiveapplications.com/)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 

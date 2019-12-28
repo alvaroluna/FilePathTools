@@ -1,13 +1,13 @@
 from distutils.core import setup
 
-setup(name = 'FilePathTools', # How you named your package folder (MyLib)
-      packages = ['FilePathTools'], # Chose the same as "name"
+setup(name = 'PathManager', # How you named your package folder (MyLib)
+      packages = ['PathManager'], # Chose the same as "name"
       version = '0.1', # Start with a small number and increase it with every change you make
       license='MIT',
       description = 'This module allows you to input a file path, step back n-levels toward\nthe root directory, and append an optional sub folder string.', # Give a short description about your library
       author = 'ALVARO LUNA', # Type in your name
       author_email = 'aluna@objectiveapplications.com',
-      url = 'https://github.com/alvaroluna/FilePathTools.git',
+      url = 'https://github.com/alvaroluna/PathManager.git',
       download_url = 'https://github.com/user/reponame/archive/v_01.tar.gz', # I explain this later on
       keywords = ['SOME', 'MEANINGFULL', 'KEYWORDS'], # Keywords that define your package best
       install_requires = [], # required modules that need to be installed through pip
